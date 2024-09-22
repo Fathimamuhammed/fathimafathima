@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* <!--header--> */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+}
+/* <--logo--> */
+.logo-container{
+ width: 20%;
+ text-align:left;
+ margin: 5px;
+ padding-left: 20px;
+
+}
+.logo-container a{
+ color: aliceblue;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+.logo-container p span{
+    color: rgb(163, 247, 8);
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+/* <!--search--> */
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    min-width: 300px;
+    width: 40px;
+    height: 38px;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius:4px;
+}
+.search-container input{
+    height: 20px;
+    width: 100%;
+    text-align:left;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.search-container input:hover{
+    cursor: text;
+}
+
+/* <--login button--> */
+.loginbtn{
+    background-color: white;
+    height:38px;
+    width: 150px;
+    margin: 10px 20px;
+    border-radius: 4px;
+    text-align: center; 
+    padding-top: 10px;
+}
+.loginbtn a{
+    font-size: 18px;
+    text-decoration: none;
+    padding:5px 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+.loginbtn a:hover{
+    text-decoration: underline;
+}
+.loginbtn a i{
+   margin-right: 10px;
+} 
+
+/* <!--nav section--> */
+.nav-link{
+    width: 40%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.nav-link a:hover{
+    text-decoration: underline;
+}
+.more{
+    font-size: 18px;
+    color: aliceblue;
+    padding: 20px;
+    cursor: pointer;
+}
+.more-icon{
+    font-size: 15px;
+    
+}
+.more:hover .more-icon{
+    cursor: pointer;
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+} 
+/* <!--CATEGORY SECTION--> */
+
+.category-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.category-col img{
+ height: 50px;
+ margin-top: 8px;
+}
+.fimg1 h6{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* <--banner--> */
+.slider img{
+    width: 100%;
+}
+/* <!--best of electronic--> */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 227, 227); 
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.bestelectronic-container{
+    height: 400px;
+    display: flex;
+    background-color: rgb(227, 215, 215);
+    justify-content: space-around;
+    padding: 3px;
+}
+p{
+    font-size: 12px;
+}
+p1{
+    font-weight: 600;
+}
+p2{
+    color: red;
+}
+.cart{
+    background-color: rgb(246, 246, 9);
+    border-radius:25px ;
+    text-align: center;
+    
+}
+/* <!--toys,games-->    */
+.toys-section{
+    height: 400px;
+    display: flex;
+    background-color: rgb(227, 215, 215);
+    justify-content: space-around;
+    padding: 3px;
+}
+.right-part{ 
+    height: 100%;
+    width: 79%;
+    box-shadow: 1px 1px 5px(0,0,0,0,1);
+    background-color: rgb(245, 238, 238);
+}
+.rightpart-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 20%;
+    border-radius: 10px;
+    border-bottom: 2px solid gray;
+    background-color: rgb(251, 250, 251);
+    margin: 0;
+}
+.left-part{
+    height: 100%;
+    width: 19%;
+    border: 5px solid rgb(253, 251, 251);
+    box-shadow: 1px 1px 5px(0,0,0,0,1);
+    position: relative;
+}
+ .left-part .offer-text{
+    position: absolute;
+    font-style:italic;
+    font-weight: 600;
+    font-size: xx-large;
+    color: rgb(178, 3, 3);
+    top: 20%;
+    right:10% ;
+    text-align: start;
+ }
+.btn button{
+    background-color: rgb(36, 36, 236);
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-top: 12px;
+    font-size: medium;
+    border-radius: 6px;
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.rightpart-bottam{
+    background-color: rgb(249, 16, 16);
+    height:80% ;
+}
+.rightpart-card{
+    display: flex;
+}
+.product-card{
+    height: 318px;
+    width: 180px;
+    padding: 20px;
+    background-color: rgb(246, 238, 238); 
+    overflow-wrap: anywhere;
+}
+.product-card:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px  2px 2px rgb(32, 32, 33);
+}
+
+.product-card img{
+    width: 100%;
+    height: 150px;
+}
+.deal{
+    background-color: rgb(26, 123, 2);
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+   
+    
+}
+
+/* <!--footer--> */
+.container{
+    max-width: max-content;
+    background-color: blue;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:blue;
+    padding: 50px;
+    display: flex;
+}
+.row{
+
+    display: flex;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:rgb(212, 8, 100);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display:block ;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: rgb(249, 248, 252);
+    padding-left: 8px;
+}
+.socials {
+    width: 40px;
+    height: 40px;
+    display:flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.socials li{
+    margin: 0 5px;
+}
+.socials a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.socials a:hover{
+    background-color: rgb(236, 236, 243);
+    border-radius: 25px;
+}
+.socials a i{
+    font-size: 30px; 
+    width:50px ;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    color: rgb(5, 12, 98);
+    padding:10PX ;
+}
